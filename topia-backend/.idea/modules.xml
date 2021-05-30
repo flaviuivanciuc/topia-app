@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/topia-backend.iml" filepath="$PROJECT_DIR$/topia-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topia-backend-client/topia-backend-client.iml" filepath="$PROJECT_DIR$/topia-backend-client/topia-backend-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topia-database-client/topia-database-client.iml" filepath="$PROJECT_DIR$/topia-database-client/topia-database-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topia-shared/topia-shared.iml" filepath="$PROJECT_DIR$/topia-shared/topia-shared.iml" />
+    </modules>
+  </component>
+</project>

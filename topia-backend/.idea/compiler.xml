@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="topia-backend-client" />
+        <module name="topia-database-client" />
+        <module name="topia-shared" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="topia-backend" target="11" />
+      <module name="topia-backend-client" target="11" />
+      <module name="topia-database-client" target="11" />
+      <module name="topia-shared" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="topia-backend" options="-parameters" />
+      <module name="topia-backend-client" options="-parameters" />
+      <module name="topia-database-client" options="-parameters" />
+      <module name="topia-shared" options="-parameters" />
+    </option>
+  </component>
+</project>
